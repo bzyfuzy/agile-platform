@@ -20,7 +20,7 @@ This guide walks you through running AgilePlatform locally for development.
 ## Step 1 — Clone and configure
 
 ```bash
-git clone https://github.com/bzy-fuzy/agile-platform
+git clone https://github.com/your-org/agile-platform
 cd agile-platform
 cp .env.example .env
 ```

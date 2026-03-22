@@ -44,11 +44,7 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "Guides",
-      items: [
-        "guides/local-setup",
-        "guides/deployment",
-        "guides/contributing",
-      ],
+      items: ["guides/local-setup", "guides/deployment", "guides/contributing"],
     },
   ],
 };

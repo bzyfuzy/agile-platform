@@ -1,0 +1,22 @@
+{
+  "sidebar.docsSidebar.doc.intro": {
+    "message": "Танилцуулга",
+    "description": "Sidebar label for intro"
+  },
+  "sidebar.docsSidebar.category.Architecture": {
+    "message": "Архитектур",
+    "description": "Sidebar category Architecture"
+  },
+  "sidebar.docsSidebar.category.Services": {
+    "message": "Үйлчилгээнүүд",
+    "description": "Sidebar category Services"
+  },
+  "sidebar.docsSidebar.category.API Reference": {
+    "message": "API Лавлагаа",
+    "description": "Sidebar category API Reference"
+  },
+  "sidebar.docsSidebar.category.Guides": {
+    "message": "Гарын авлага",
+    "description": "Sidebar category Guides"
+  }
+}

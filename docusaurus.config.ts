@@ -5,21 +5,31 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "AgilePlatform",
   tagline: "High-performance agile platform built with Rust",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.svg",
   url: "https://agile.bzystudios.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
 
+  // ── Internationalisation — English + Mongolian ───────────────────────────
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "mn"],
+    localeConfigs: {
+      en: {
+        label: "English",
+        direction: "ltr",
+        htmlLang: "en",
+      },
+      mn: {
+        label: "Монгол",
+        direction: "ltr",
+        htmlLang: "mn",
+      },
+    },
   },
 
   // ── Mermaid diagram support ──────────────────────────────────────────────
-  markdown: {
-    mermaid: true,
-  },
+  markdown: { mermaid: true, hooks: { onBrokenMarkdownLinks: "warn" } },
   themes: ["@docusaurus/theme-mermaid"],
 
   presets: [
@@ -28,35 +38,22 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          editUrl: "https://github.com/bzy-fuzy/agile-platform/tree/main/docs/",
+          editUrl: "https://github.com/bzyfuzy/agile-platform/tree/main/docs/",
           showLastUpdateTime: false,
           showLastUpdateAuthor: false,
           routeBasePath: "docs",
         },
         blog: false,
-        theme: {
-          customCss: "./src/css/custom.css",
-        },
+        theme: { customCss: "./src/css/custom.css" },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
-    // ── Mermaid theme ──────────────────────────────────────────────────────
     mermaid: {
       theme: { light: "neutral", dark: "dark" },
-      options: {
-        fontFamily: "inherit",
-        fontSize: 14,
-      },
+      options: { fontFamily: "inherit", fontSize: 14 },
     },
-
-    // ── Algolia search (replace with your keys) ───────────────────────────
-    // algolia: {
-    //   appId: "YOUR_APP_ID",
-    //   apiKey: "YOUR_SEARCH_API_KEY",
-    //   indexName: "agile_platform_docs",
-    // },
 
     navbar: {
       title: "",
@@ -80,18 +77,15 @@ const config: Config = {
           label: "Architecture",
           position: "left",
         },
+        { to: "/docs/api/overview", label: "API", position: "left" },
+        { to: "/docs/guides/local-setup", label: "Guides", position: "left" },
+        // ── Language switcher ──────────────────────────────────────────────
         {
-          to: "/docs/api/overview",
-          label: "API",
-          position: "left",
+          type: "localeDropdown",
+          position: "right",
         },
         {
-          to: "/docs/guides/local-setup",
-          label: "Guides",
-          position: "left",
-        },
-        {
-          href: "https://github.com/bzy-fuzy/agile-platform",
+          href: "https://github.com/your-org/agile-platform",
           label: "GitHub",
           position: "right",
         },
@@ -114,13 +108,13 @@ const config: Config = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/bzy-fuzy/agile-platform",
+              href: "https://github.com/bzyfuzy/agile-platform",
             },
             { label: "Discord", href: "https://discord.gg/bzy-agile" },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} AgilePlatform.`,
+      copyright: `Copyright © ${new Date().getFullYear()} AgilePlatform`,
     },
 
     prism: {

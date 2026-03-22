@@ -1,0 +1,182 @@
+{
+  "theme.navbar.mobileVersionsDropdown.header": {
+    "message": "Хувилбарууд",
+    "description": "Header for the mobile versions dropdown"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Үндсэн цэс рүү буцах",
+    "description": "Back button label in secondary mobile sidebar menu"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Хаах",
+    "description": "Close button aria label for announcement bar"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Блогийн хуудас хооронд шилжих",
+    "description": "Blog pagination nav aria label"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Шинэ нийтлэлүүд",
+    "description": "Newer entries pagination label"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Хуучин нийтлэлүүд",
+    "description": "Older entries pagination label"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Харанхуй горим ({mode}) руу шилжих",
+    "description": "Aria label for dark/light mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "харанхуй горим",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "цайвар горим",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Хөтөч навигаци",
+    "description": "Breadcrumbs aria label"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} тухай нийтлэл",
+    "description": "Category description plural"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Баримт бичгийн хуудас хооронд шилжих",
+    "description": "Docs pagination nav aria label"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Өмнөх",
+    "description": "Previous page pagination label"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Дараах",
+    "description": "Next page pagination label"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Хажуугийн самбарыг хураах",
+    "description": "Sidebar collapse button title"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Хажуугийн самбарыг хураах",
+    "description": "Sidebar collapse button aria label"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Баримт бичгийн хажуугийн самбар",
+    "description": "Docs sidebar nav aria label"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Навигацийн самбарыг хаах",
+    "description": "Close docs sidebar aria label"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Навигацийн самбарыг нэмэх/хасах",
+    "description": "Toggle sidebar button aria label"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Хажуугийн самбарыг өргөтгөх",
+    "description": "Sidebar expand button title"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Хажуугийн самбарыг өргөтгөх",
+    "description": "Sidebar expand button aria label"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Энэ бол AgilePlatform-ийн {versionLabel} хувилбарын баримт бичиг бөгөөд гаргагдаагүй байна.",
+    "description": "Unreleased version label"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Энэ бол AgilePlatform-ийн {versionLabel} хувилбарын баримт бичиг бөгөөд {latestVersionLink} нь хамгийн сүүлийн хувилбар юм.",
+    "description": "Unmaintained version label"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Хамгийн сүүлийн хувилбарын баримт бичгийг {latestVersionLink} дээр харна уу.",
+    "description": "Latest version suggestion label"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "хамгийн сүүлийн хувилбар",
+    "description": "Latest version link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Энэ хуудсыг засах",
+    "description": "Edit this page link text"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Энэ гарчигт шууд холбоос",
+    "description": "Heading link title"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " {date}-д",
+    "description": "Last updated at date"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " {user}-аар",
+    "description": "Last updated by user"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Сүүлийн шинэчлэл: {atDate}{byUser}",
+    "description": "Last updated label"
+  },
+  "theme.navbar.mobileLanguageDropdown.header": {
+    "message": "Хэл сонгох",
+    "description": "Mobile language dropdown header"
+  },
+  "theme.NotFound.title": {
+    "message": "Хуудас олдсонгүй",
+    "description": "404 page title"
+  },
+  "theme.NotFound.p1": {
+    "message": "Та хайж буй хуудсыг олж чадсангүй.",
+    "description": "404 page paragraph 1"
+  },
+  "theme.NotFound.p2": {
+    "message": "Уг холбоосыг өгсөн сайттай холбогдож, холбоос хугарсан тухай мэдэгдэнэ үү.",
+    "description": "404 page paragraph 2"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Энэ хуудсанд",
+    "description": "TOC collapsible toggle button label"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Бүх шошгыг харах",
+    "description": "Tags page link label"
+  },
+  "theme.SearchBar.label": {
+    "message": "Хайх",
+    "description": "Search bar label"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "\"{query}\"-н хайлтын үр дүн",
+    "description": "Search results title"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "\"{query}\"-н хайлт",
+    "description": "Empty search results title"
+  },
+  "theme.admonition.note": {
+    "message": "Тэмдэглэл",
+    "description": "Note admonition label"
+  },
+  "theme.admonition.tip": {
+    "message": "Зөвлөмж",
+    "description": "Tip admonition label"
+  },
+  "theme.admonition.danger": {
+    "message": "Аюул",
+    "description": "Danger admonition label"
+  },
+  "theme.admonition.info": {
+    "message": "Мэдээлэл",
+    "description": "Info admonition label"
+  },
+  "theme.admonition.warning": {
+    "message": "Анхааруулга",
+    "description": "Warning admonition label"
+  },
+  "theme.admonition.caution": {
+    "message": "Болгоомжлол",
+    "description": "Caution admonition label"
+  }
+}

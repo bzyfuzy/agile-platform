@@ -51,7 +51,7 @@ flowchart TD
 
 ```bash
 # Clone the repo
-git clone https://github.com/bzy-fuzy/agile-platform
+git clone https://github.com/your-org/agile-platform
 cd agile-platform
 
 # Start all infrastructure
