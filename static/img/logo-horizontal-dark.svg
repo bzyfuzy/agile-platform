@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="80" viewBox="0 0 380 80">
+  <rect width="80" height="80" fill="#1D9E75" rx="18"/>
+  <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M16 64 40 8v56z"/>
+  <path stroke="#fff" stroke-linecap="round" stroke-width="5" d="M23 42h17"/>
+  <path stroke="#fff" stroke-linecap="round" stroke-width="5" d="M48 8v56"/>
+  <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M48 8q22 0 22 18T48 44"/>
+  <text x="90" y="40" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="900" letter-spacing="-2">AGILE</text>
+  <text x="90" y="70" fill="#2dc99a" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="300" letter-spacing="-1">platform</text>
+</svg>

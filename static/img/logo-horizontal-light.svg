@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 80" width="380" height="80">
+  <rect x="0" y="0" width="80" height="80" rx="18" fill="#1D9E75"/>
+  <polygon points="16,64 40,8 40,64" fill="none" stroke="white" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="23" y1="42" x2="40" y2="42" stroke="white" stroke-width="5" stroke-linecap="round"/>
+  <line x1="48" y1="8" x2="48" y2="64" stroke="white" stroke-width="5" stroke-linecap="round"/>
+  <path d="M48 8 Q70 8 70 26 Q70 44 48 44" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text font-family="Arial,Helvetica,sans-serif" font-weight="900" font-size="40" letter-spacing="-2" fill="#0f1117" x="90" y="40">AGILE</text>
+  <text font-family="Arial,Helvetica,sans-serif" font-weight="300" font-size="40" letter-spacing="-1" fill="#1D9E75" x="90" y="70">platform</text>
+</svg>

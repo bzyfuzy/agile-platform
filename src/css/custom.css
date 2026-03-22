@@ -1,0 +1,170 @@
+/**
+ * AgilePlatform docs — custom Docusaurus theme
+ * Full light + dark mode support
+ */
+
+/* ── Light mode ──────────────────────────────────────────────────────────── */
+:root {
+  --ifm-color-primary:          #1D9E75;
+  --ifm-color-primary-dark:     #1a8f69;
+  --ifm-color-primary-darker:   #178762;
+  --ifm-color-primary-darkest:  #126f51;
+  --ifm-color-primary-light:    #20ad81;
+  --ifm-color-primary-lighter:  #23b588;
+  --ifm-color-primary-lightest: #2dc99a;
+
+  --ifm-background-color:         #ffffff;
+  --ifm-background-surface-color: #f4f8f6;
+  --ifm-navbar-background-color:  #ffffff;
+  --ifm-footer-background-color:  #f4f8f6;
+
+  --ifm-code-font-size:       90%;
+  --ifm-font-family-base:     "DM Sans", "Segoe UI", system-ui, sans-serif;
+  --ifm-font-family-monospace:"JetBrains Mono", "Fira Code", monospace;
+  --ifm-heading-font-weight:  700;
+  --ifm-navbar-height:        60px;
+  --ifm-toc-border-color:     #d4e5dc;
+  --ifm-hr-border-color:      #d4e5dc;
+
+  --docusaurus-highlighted-code-line-bg: rgba(29,158,117,0.08);
+}
+
+/* ── Dark mode ───────────────────────────────────────────────────────────── */
+[data-theme="dark"] {
+  --ifm-color-primary:          #2dc99a;
+  --ifm-color-primary-dark:     #25b98c;
+  --ifm-color-primary-darker:   #22b084;
+  --ifm-color-primary-darkest:  #1c906d;
+  --ifm-color-primary-light:    #3ed3a8;
+  --ifm-color-primary-lighter:  #47d6ac;
+  --ifm-color-primary-lightest: #64dcba;
+
+  --ifm-background-color:         #0a0f0d;
+  --ifm-background-surface-color: #0d1a14;
+  --ifm-navbar-background-color:  #060d09;
+  --ifm-footer-background-color:  #060d09;
+
+  --ifm-toc-border-color:  #1a2a22;
+  --ifm-hr-border-color:   #1a2a22;
+  --ifm-color-emphasis-300: #1a2a22;
+
+  --docusaurus-highlighted-code-line-bg: rgba(45,201,154,0.1);
+}
+
+/* ── Navbar ──────────────────────────────────────────────────────────────── */
+.navbar {
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+  box-shadow: none;
+}
+
+.navbar__title { font-weight: 700; letter-spacing: -0.02em; }
+
+/* ── Sidebar ─────────────────────────────────────────────────────────────── */
+.menu__link--active { font-weight: 600; }
+
+[data-theme="dark"] .menu {
+  background: var(--ifm-background-surface-color);
+}
+
+/* ── Doc content ─────────────────────────────────────────────────────────── */
+[data-theme="dark"] .markdown h1,
+[data-theme="dark"] .markdown h2,
+[data-theme="dark"] .markdown h3 {
+  color: #f0faf6;
+}
+
+/* ── Code blocks ─────────────────────────────────────────────────────────── */
+.prism-code {
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+[data-theme="dark"] .prism-code {
+  background: #0d1a14 !important;
+}
+
+/* ── Inline code ─────────────────────────────────────────────────────────── */
+[data-theme="dark"] code {
+  background: rgba(29,158,117,0.1);
+  color: #2dc99a;
+  border: 1px solid rgba(29,158,117,0.2);
+}
+
+/* ── Admonitions ─────────────────────────────────────────────────────────── */
+.alert { border-radius: 8px; }
+
+[data-theme="dark"] .alert--info {
+  background: rgba(55,138,221,0.08);
+  border-color: rgba(55,138,221,0.3);
+}
+
+[data-theme="dark"] .alert--tip {
+  background: rgba(29,158,117,0.08);
+  border-color: rgba(29,158,117,0.3);
+}
+
+/* ── Tables ──────────────────────────────────────────────────────────────── */
+table { display: table; width: 100%; border-radius: 8px; overflow: hidden; }
+
+th {
+  background: var(--ifm-background-surface-color);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+[data-theme="dark"] tr:nth-child(even) {
+  background: rgba(29,158,117,0.04);
+}
+
+/* ── Mermaid diagrams ────────────────────────────────────────────────────── */
+.docusaurus-mermaid-container {
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-toc-border-color);
+  border-radius: 12px;
+  padding: 24px;
+  margin: 24px 0;
+  overflow-x: auto;
+}
+
+.docusaurus-mermaid-container svg { max-width: 100%; height: auto; }
+
+/* ── Footer ──────────────────────────────────────────────────────────────── */
+.footer {
+  border-top: 1px solid var(--ifm-toc-border-color);
+}
+
+[data-theme="dark"] .footer {
+  background: #060d09;
+}
+
+[data-theme="dark"] .footer__title { color: #f0faf6; }
+[data-theme="dark"] .footer__link-item { color: #4a6358; }
+[data-theme="dark"] .footer__link-item:hover { color: #2dc99a; }
+[data-theme="dark"] .footer__copyright { color: #2a3a30; }
+
+/* ── TOC ─────────────────────────────────────────────────────────────────── */
+[data-theme="dark"] .table-of-contents__link {
+  color: #4a6358;
+}
+[data-theme="dark"] .table-of-contents__link:hover,
+[data-theme="dark"] .table-of-contents__link--active {
+  color: #2dc99a;
+}
+
+/* ── Pagination ──────────────────────────────────────────────────────────── */
+[data-theme="dark"] .pagination-nav__link {
+  border-color: #1a2a22;
+  background: #0d1a14;
+}
+[data-theme="dark"] .pagination-nav__link:hover {
+  border-color: #1D9E75;
+}
+
+/* ── Search ──────────────────────────────────────────────────────────────── */
+[data-theme="dark"] .DocSearch-Button {
+  background: #0d1a14;
+  border-color: #1a2a22;
+  color: #4a6358;
+}
